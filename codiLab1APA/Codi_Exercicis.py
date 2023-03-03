@@ -44,9 +44,6 @@ fk = (k/N)*(fm/2)
 
 plt.figure(2)
 plt.plot(fk,Xdb)
-plt.title('Modul Transformada del senyal')  
+plt.title('Modul Transformada del senyal') 
+plt.ylabel('dB') 
 plt.show()
-
-
- 
-

@@ -120,7 +120,7 @@ Proves i exercicis a fer i entregar
 
     <img src="img/Figure_1.png" width="480" align="center">
 
-    Podem observar que com que el senyal es sinusoidal, la seva transformada serà una Sinc. En aquest cas la representada a la segona imatge.
+    Podem observar que com que el senyal es periòdic, la seva transformada serà una Sinc. En aquest cas la representada a la segona imatge.
     
 3. Modifica el programa per representar el mòdul de la Transformada de Fourier en dB i l'eix d'abscisses en el marge de
     $0$ a $f_m/2$ en Hz.
@@ -153,6 +153,12 @@ Proves i exercicis a fer i entregar
     - Representa la seva transformada en dB en funció de la freqüència, en el marge $f_m\le f\le f_m/2$.
     - Quines son les freqüències més importants del segment triat?
 
+**Resposta 4**:
+    <img src="img/Figure_3.png" width="480" align="center">
+    <img src="img/Figure_4.png" width="480" align="center">
+    <img src="img/Figure_5.png" width="480" align="center">
+
+    Podem observar a la representació del modul de la transformada que la seva frequencia de mostratge sera entorn al 40000 Hz, ja que fm/2 = 20000, per tant es la de 44100Hz. 
 
 Entrega
 -------
