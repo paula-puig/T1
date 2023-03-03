@@ -106,6 +106,8 @@ Proves i exercicis a fer i entregar
 1. Reprodueix l'exemple fent servir diferents freqüències per la sinusoide. Al menys considera $f_x = 4$ kHz, a banda d'una
     freqüència pròpia en el marge audible. Comenta els resultats.
 
+    **Resposta 1**: Escoltant el nou fitxer d'àudio amb fx = 4000 Hz i el vell a fx = 440 Hz, notem que el nou a l'aplicar una freqüència més elevada aquest so és molt més agut.
+
 2. Modifica el programa per considerar com a senyal a analitzar el senyal del fitxer wav que has creat 
     (`x_r, fm = sf.read('nom_fitxer.wav')`).
 
@@ -113,6 +115,13 @@ Proves i exercicis a fer i entregar
 
     - Explica el resultat del apartat anterior.
 
+    **Resposta 2**:
+    <img src="img/Figure_0.png" width="480" align="center">
+
+    <img src="img/Figure_1.png" width="480" align="center">
+
+    Podem observar que com que el senyal es sinusoidal, la seva transformada serà una Sinc. En aquest cas la representada a la segona imatge.
+    
 3. Modifica el programa per representar el mòdul de la Transformada de Fourier en dB i l'eix d'abscisses en el marge de
     $0$ a $f_m/2$ en Hz.
 
@@ -130,6 +139,10 @@ Proves i exercicis a fer i entregar
 > - La relació entre els valors de l'índex k i la freqüència en Hz és:
 >
 > $f_k = \frac{k}{N} f_m$
+
+**Resposta 3**:
+    <img src="img/Figure_2.png" width="480" align="center">
+
 
 4. Tria un fitxer d'àudio en format wav i mono (el pots aconseguir si en tens amb altres formats amb el programa Audacity). 
     Llegeix el fitxer d'àudio i comprova:
